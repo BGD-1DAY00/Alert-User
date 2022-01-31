@@ -308,10 +308,14 @@
 
 
 
+import fetch from "node-fetch"
+import prompt from "prompt"
+prompt.start()
+
 
 function guestResponse(){
-  let fName = String(prompt(`What is your first name?`)).toLowerCase()
-  let lName = String(prompt(`Please enter your last name?`)).toLowerCase()
+  let fName = String(prompt.get(`What is your first name?`)).toLowerCase()
+  let lName = String(prompt.get(`Please enter your last name?`)).toLowerCase()
   fetch('json/guests.json')
     .then(response=> response.json())
     .then(data=>{
@@ -385,6 +389,18 @@ input.addEventListener("keyup", function(event) {
     document.getElementById("btnOne").click();
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

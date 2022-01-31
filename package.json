@@ -1,0 +1,19 @@
+{
+  "name": "kipsu-project",
+  "version": "1.0.0",
+  "description": "job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BGD-1DAY00/Kip-ResponseToGuest.git"
+  },
+  "author": "saad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BGD-1DAY00/Kip-ResponseToGuest/issues"
+  },
+  "homepage": "https://github.com/BGD-1DAY00/Kip-ResponseToGuest#readme"
+}

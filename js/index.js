@@ -312,14 +312,14 @@
 function guestResponse(){
   let fName = String(prompt(`What is your first name?`)).toLowerCase()
   let lName = String(prompt(`Please enter your last name?`)).toLowerCase()
-  fetch('guests.json')
+  fetch('json/guests.json')
     .then(response=> response.json())
     .then(data=>{
         for(let i =0; i< data.length; i++ ){
           if(data[i]["firstName"].toLowerCase() == fName){
             if(data[i]["lastName"].toLowerCase() == lName){
               var id = data[i]["id"]
-              fetch('companies.json')
+              fetch('json/companies.json')
                 .then(response=> response.json())
                 .then(cData=>{  
                   for(let j =0; j<=cData.length; j++ ){

@@ -28,7 +28,7 @@ header {
   border: 1px solid black;
   border-bottom: 4px red solid;
   height: 100vh;
-  background-image: url("../../steven-wei-a3IR4iEl2Vs-unsplash.jpg");
+  background-image: url("../../images/steven-wei-a3IR4iEl2Vs-unsplash.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,7 +47,15 @@ nav {
   position: sticky;
   background-color: wheat;
   z-index: 4;
+  color: white;
   top: 0px;
+}
+
+nav ul, nav li, nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #5e5757;
+  font-weight: bold;
 }
 
 #Phrase {
@@ -287,6 +295,7 @@ section form {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
+  max-width: 400px;
 }
 
 section input {
@@ -302,6 +311,18 @@ section button {
   padding: 10px 10px;
   background-color: #da716d;
   margin-left: 10em;
+}
+
+section label {
+  margin-left: 3em;
+}
+
+section label:first-of-type {
+  margin-top: 2em;
+}
+
+section fieldset legend {
+  text-align: center;
 }
 
 footer {

@@ -1,9 +1,9 @@
 # Job-Assignment
 
 Instructions for how to run program: 
-  - I attempted to build a bot that you communicate with the user, however I was unsuccesfull
+  - I attempted to build a bot that would communicate with the user, however I was unsuccesfull
   - when you open the page you will receive an alert asking for you first name and last name, it run a cross refernce with the json data, 
-    if found you will recieve this message with that users data;
+    if found you will recieve this message with that users data, and greeting that cooreesponds to the time of day;
            "Good morning Ethan, and welcome to Hotel California! Room 304 is now ready you. Enjoy your stay, and let us know if you need anything." 
    - If not found the user will recive the alert:
              alert(`Sorry, we don't seem to have your reservation, have you entered your information correctly? Please refresh the page and try again!`);
@@ -22,6 +22,8 @@ Design descisons:
 Verify the Correctness: 
     - I didn't write any test cases, even in my fetch statements I didn't write any try/catch statemets
     - I just ran it alot of times, reflecting on it now i should have done more
+    - I tried many async awaits calls, i have used them in the past but i guess i still need more experiance in making that call,
+      i also tried an axios call and was unsuccessfull
     
  What didn't you get to, or what else might you do with more time? 
       - write some test cases

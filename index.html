@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="scss/main.css">
+  <script src="js/index.js" defer> </script>
+  <title>Kipsu</title>
+</head>
+<body>
+  <header>
+<!-- this is the navigation -->
+    <nav>
+      <ul>
+        <div id="firstanchor">
+          <li><a href="#">Kipsu</a></li>
+        </div>
+        <li><a href="#">Hotel</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Reservation</a></li>
+      </ul>
+    </nav>
+  <!-- this contrils the slogan for the page -->
+    <div id="Phrase">
+
+      <h3>Changing How You Do Business Is How We Do Business</h3>
+    </div>
+  <!-- this is the large centerd text for the page -->
+    <div id="mainTitle">
+      <h1>Kipsu  Support</h1>
+      <p>To the Resue</p>
+      <hr>
+    </div>
+  </header>
+
+  <main>
+    <h3>Chat With Us</h3>    
+    <div class="container">
+      <ul id="listItems">
+      </ul>
+    </div>
+    <div>
+      <input id="inputOne" type="text">
+      <button id="btnOne">Send</button>
+    </div>
+  </main>
+
+
+  <section>
+    <h3>Send us a message</h3>
+    <form action="/Post.html" method="Post">
+
+      <label for="username">Username:</label>
+			  <input
+			    id="username"
+			    type="text"
+			    placeholder=""
+			    name="username"
+			    required />
+        <br>
+
+			  <label for="password">Password:</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            minlength="6"
+            required />
+          <br>
+
+        <label for="Complaint">Complaint:</label>
+        <input
+          id="Complaint"
+          type="text"
+          name="complaint"
+          row ='9'
+          columns='9'
+          required />
+        <br>
+
+			  <fieldset>
+			    <legend>What is your Complaint</legend>
+			    <label for="Email">Email</label>
+			    <input id="Email" type="radio" name="Complaint" value="Email" />
+			    <label for="Phone">Phone</label>
+			    <input id="Phone" type="radio" name="Complaint" value="Phone" />
+			    <label for="Connection">Connection</label>
+			    <input id="Connection" type="radio" name="Complaint" value="Connection" />
+			  </fieldset>
+			  <button>Submit</button>
+
+    </form>
+  </section>
+  <footer></footer>
+
+</body>
+</html>

@@ -1,4 +1,10 @@
-// let question = prompt('What is your name and hotel stay')
+// IGNORE THE COMMENTED CODE, THESE WERE ALL ATTEMPETS TO HIGHLIGHT WHAT I TRIED, MY CODE IS DOWN BELOW
+
+
+
+
+
+//let question = prompt('What is your name and hotel stay')
 // Promise.all([
 //   fetch("companies.json")
 //   .then(response => response.json()),

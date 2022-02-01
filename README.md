@@ -35,6 +35,7 @@ What didn't you get to, or what else might you do with more time?
   - clean up my scss,alot more variables and more organized
   - complete the chatbox
   - redesign the page
+  - make it more accessible, aria labels, roles
   - I tried to host the page on heroku; i ran the tail on git bash(windows) and revieced many errors because there were so many packages i was missing: 
       
      

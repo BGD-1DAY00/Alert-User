@@ -29,6 +29,7 @@ Verify the Correctness:
     
 What didn't you get to, or what else might you do with more time? 
   - write some test cases
+  - run a local json server to write an axios call
   - make it mobile repsonsive
   - orient the links
   - more comments in my code, more organization, it would be hard to maintain if handed to a third party
